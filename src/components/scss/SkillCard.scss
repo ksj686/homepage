@@ -15,6 +15,7 @@
     transform: perspective(800px) rotateY(0);
     transform-style: preserve-3d;
     transition: 0.5s;
+    background: white;
 
     > div {
       backface-visibility: hidden;
