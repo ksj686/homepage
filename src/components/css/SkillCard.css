@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.wrap .content-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.wrap header {
+  line-height: 80px;
+}
+.wrap header .content-inner div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+.wrap header .content-inner div ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.wrap header .content-inner div ul li {
+  font-size: 1.13rem;
+  font-weight: bold;
+}
+.wrap .main {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+.wrap .main .content-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+.skill-card .card-wrap .card-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.skill-card .card-wrap .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #646cff;
+  top: 0;
+  left: 0;
+  transform: rotateY(180deg);
+}/*# sourceMappingURL=SkillCard.css.map */

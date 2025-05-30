@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.wrap .content-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.wrap header {
+  line-height: 80px;
+}
+.wrap header .content-inner div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+}
+.wrap header .content-inner div ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.wrap header .content-inner div ul li {
+  font-size: 1.13rem;
+  font-weight: bold;
+}
+.wrap .index {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+}
+.wrap .index .content-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+}
+.wrap .main {
+  padding: 100px 0;
+}
+.wrap .skill-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=App.css.map */
