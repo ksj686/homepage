@@ -63,7 +63,8 @@ li {
 
   .skill-list {
     margin-top: 100px;
-    @include myFlex(20px, start);
+    // @include myFlex(20px, start);
+    @include myFlex(20px);
 
     li {
       width: calc(100% / 4 - 20px);

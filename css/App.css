@@ -50,16 +50,20 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0;
+  gap: 100px;
   flex-wrap: wrap;
 }
 .wrap .main {
   padding: 100px 0;
 }
 .wrap .skill-list {
+  margin-top: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0;
+  gap: 20px;
   flex-wrap: wrap;
+}
+.wrap .skill-list li {
+  width: calc(25% - 20px);
 }/*# sourceMappingURL=App.css.map */
